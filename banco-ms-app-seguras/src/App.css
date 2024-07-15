@@ -1,9 +1,8 @@
 .App {
   text-align: center;
 }
-
 .main-background {
-  background-image: url('/home/msdev/Escritorio/ISTA/ISTAProjects/banco-ms-app-seguras/public/principal.png');
+  background-image: url('/home/msdev/Escritorio/ISTAProjects/banco-ms-app-seguras/public/principal.png');
   margin-top: 10px;
   background-size: cover;
   background-position: center top; /* Ajusta la posición para centrar verticalmente desde la parte superior */
@@ -15,7 +14,7 @@
 
 
 .login-background {
-  background-image: url('/home/msdev/Escritorio/ISTA/ISTAProjects/banco-ms-app-seguras/public/login.png');
+  background-image: url('/home/msdev/Escritorio/ISTAProjects/banco-ms-app-seguras/public/login.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -51,7 +50,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-left: 1350px;
+  margin-left: 1150px;
 }
 
 .login-form, .security-check-form {
@@ -86,7 +85,17 @@
 }
 
 .security-background {
-  background-image: url('/home/msdev/Escritorio/ISTA/ISTAProjects/banco-ms-app-seguras/public/seguridad.png'); /* Imagen de fondo de seguridad */
+  background-image: url('/home/msdev/Escritorio/ISTAProjects/banco-ms-app-seguras/public/seguridad.png'); /* Imagen de fondo de seguridad */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* Ajusta según tus necesidades */
+  align-items: center; /* Ajusta según tus necesidades */
+}
+
+.cuenta {
+  background-image: url('/home/msdev/Escritorio/ISTAProjects/banco-ms-app-seguras/public/cuenta.png'); /* Imagen de fondo de seguridad */
   background-size: cover;
   background-position: center;
   height: 100vh;
